@@ -32,7 +32,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" className="overflow-y-scroll no-scrollbar">
-      <body className={`${asap.variable} ${karantina.variable} ${inter.variable} font-sans bg-slate-900 flex flex-col`}>
+      <body className={`${asap.variable} ${karantina.variable} ${inter.variable} font-sans bg-white flex flex-col`}>
         <Header />
         {children}
         <Footer />
